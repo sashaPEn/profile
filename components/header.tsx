@@ -23,7 +23,7 @@ export default function Header() {
           {!session && (
             <>
               <span className={styles.notSignedInText}>
-                You are not signed in
+               Вы не зарегистрированы
               </span>
               <a
                 href={`/api/auth/signin`}
@@ -68,22 +68,22 @@ export default function Header() {
         <ul className={styles.navItems}>
           <li className={styles.navItem}>
             <Link href="/">
-              <a>Home</a>
+              <a>Главная</a>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href="/client">
-              <a>Client</a>
+              <a>Клиент</a>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href="/server">
-              <a>Server</a>
+              <a>Сервер</a>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href="/protected">
-              <a>Protected</a>
+              <a>Защита</a>
             </Link>
           </li>
           <li className={styles.navItem}>
@@ -98,7 +98,7 @@ export default function Header() {
           </li>
           <li className={styles.navItem}>
             <Link href="/me">
-              <a>Me</a>
+              <a>Я</a>
             </Link>
           </li>
         </ul>
