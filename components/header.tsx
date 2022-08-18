@@ -46,7 +46,7 @@ export default function Header() {
                 />
               )}
               <span className={styles.signedInText}>
-                <small>Signed in as</small>
+                <small>Вы вошли под аккаунтом: </small>
                 <br />
                 <strong>{session.user.email ?? session.user.name}</strong>
               </span>
@@ -58,7 +58,7 @@ export default function Header() {
                   signOut()
                 }}
               >
-                Sign out
+                Выйти
               </a>
             </>
           )}
