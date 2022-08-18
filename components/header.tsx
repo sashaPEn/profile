@@ -33,7 +33,7 @@ export default function Header() {
                   signIn()
                 }}
               >
-                Sign in
+                Войти
               </a>
             </>
           )}
